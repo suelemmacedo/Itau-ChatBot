@@ -11,21 +11,25 @@
 </head>
 
 <body>
-  <div id="container-box">
+  <div class="container-box">
     <div class="header">
-      <img id="lexart-image" src="./assets/lexart.jpeg" alt="lexart image" />
-      <h2>Lexart ChatBot</h2>
-      <h4>419k people like this including Maha Mourada and 35 friends</h4>
-      <h5>Company</h5>
-      <p id="status-chat"></p>
+      <div class="image-container">
+        <img id="lexart-image" src="./assets/lexart.jpeg" alt="lexart image" />
+      </div>
+      <div class="text-container">
+        <p>Lexart ChatBot</p>
+        <p id="text-2">419k people like this including Maha Mourad and 35 friends</p>
+        <p id="text-3">Company</p>
+      </div>
+      <!-- <p id="status-chat"></p> -->
     </div>
     <div id="chat-historic">
       <!-- Aqui acontece o chat -->
     </div>
-  </div>
-  <div class="footer-chat">
-    <input type="text" id="message-input" placeholder="Type your message here..." />
-    <button type="submit" id="btn-submit">Send Message</button>
+    <div class="footer-chat">
+      <input type="text" id="message-input" placeholder="Type your message here..." />
+      <button type="submit" id="btn-submit">Send Message</button>
+    </div>
   </div>
 </body>
 

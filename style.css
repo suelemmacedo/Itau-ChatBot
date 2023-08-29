@@ -1,10 +1,12 @@
 :root {
   --dark: #0c0c0c;
   --white: #fff;
-  --gray1: #949494;
-  --gray2: #c0c0c0;
-  --yellow: #eae679;
-  --blue: #6495ed;
+  --gray1: #778899;
+  --gray2: #cccccc;
+  --gray3: #f2f2f2;
+  --gray4: #c0c0c0;
+  --orange: #ffa500;
+  --blue: #3366ff;
 }
 
 body {
@@ -27,11 +29,12 @@ body {
   max-height: 800px;
   border-radius: 15px;
   text-align: center;
+  overflow-y: auto;
 }
 
 .header {
   display: flex;
-  background-color: var(--yellow);
+  background-color: var(--orange);
   border-radius: 15px 15px 0 0;
 }
 
@@ -40,8 +43,8 @@ body {
   height: 100%;
 }
 
-#lexart-image {
-  border-radius: 100%;
+#itau-image {
+  border-radius: 100px;
   margin-top: 5px;
   padding: 5px;
   width: 80%;
@@ -63,17 +66,17 @@ p {
 }
 
 #text-2 {
-  color: var(--gray1);
+  color: var(--gray3);
   font-size: 18px;
 }
 
 #text-3 {
-  color: var(--gray2);
+  color: var(--gray1);
   font-size: 15px;
 }
 
 .footer-chat {
-  background-color: var(--yellow);
+  background-color: var(--orange);
   padding: 16px;
   border-radius: 0 0 15px 15px;
 }
@@ -95,12 +98,13 @@ p {
 }
 
 #btn-submit:hover {
-  background-color: var(--gray2);
+  background-color: var(--gray4);
   cursor: pointer;
   transition: 0.6s;
 }
 
 .user-message {
+  font-weight: bold;
   background-color: var(--blue);
   color: var(--white);
   padding: 10px;
@@ -112,6 +116,7 @@ p {
 }
 
 .bot-message {
+  font-weight: bold;
   background-color: var(--gray2);
   color: var(--dark);
   padding: 10px;
@@ -120,4 +125,21 @@ p {
   width: 60%;
   text-align: left;
   margin-right: auto;
+}
+
+.loan-option {
+  font-weight: bold;
+  color: var(--dark);
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid var(--gray2);
+  border-radius: 10px;
+  background-color: var(--white);
+  transition: background-color 0.6s;
+  width: 90%;
+}
+
+.loan-option:hover {
+  background-color: var(--gray3);
 }

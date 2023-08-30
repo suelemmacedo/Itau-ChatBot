@@ -15,7 +15,7 @@
 
 ## 🚀 Technologies
 
-This [Project](https://itau-chatbot.vercel.app/) fwas developed with the following technologies:
+This [Project](https://itau-chatbot.vercel.app/) was developed with the following technologies:
 
 - HTML e CSS
 - JavaScript
